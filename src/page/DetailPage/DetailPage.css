@@ -1,0 +1,118 @@
+.movie_details{
+    display: flex;
+    justify-content:space-around;
+    padding:40px 10px 0px 90px ;
+    gap: 50px;
+    
+}
+.movie_poster{
+    border-radius:10px;
+    width: 200px;
+    
+}
+.discription{
+    color: white;
+
+}
+.platforms{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    
+}
+.text_available{
+    color: white;
+    font-style: italic;
+
+}
+.text_one{
+    color: white;
+    border: 1px solid rgb(250, 246, 246);
+    border-radius: 5px;
+    padding: 8px;
+    background-color: transparent;
+
+}
+.text_second{
+    color: white;
+    border: 1px solid rgb(250, 246, 246);
+    border-radius: 5px;
+    padding: 8px;
+    background-color: transparent;
+}
+.text_third{
+    color: white;
+    border: 1px solid rgb(250, 246, 246);
+    border-radius: 5px;
+    padding: 8px;
+    background-color: transparent;
+}
+.similar_movies{
+    color: white;
+    
+}
+.movies_list{
+    display: flex;
+    gap: 10px;
+    width: 45%;
+}
+.movie_one{
+    width:45%;
+    background-color: white;
+    padding:4px;
+    border-radius: 5px;
+}
+.movie_second{
+    width:45%;
+    background-color: white;
+    padding:4px;
+    border-radius: 5px;
+}
+.download_option{
+    padding: 10px 99px ;
+    
+}
+.dwonload_button{
+    outline:none;
+    font-size: 18px;
+    width:199px;
+    height:40px;
+    color: white;
+    background-color: #6AC045;
+    border: 1px solid #6AC045;   
+    border-radius: 5px;
+}
+.movie_trailer{
+    text-align: center;
+    padding: 10px 70px;
+}
+.movie_shots{
+    display: flex;
+    justify-content: center;
+    padding: 10px 60px;
+   
+    
+}
+.content_details{
+    display: flex;
+    justify-content: space-between;
+
+}
+.identity_synopsis{
+    color: white;
+    padding: 10px 99px;
+}
+.date_time{
+    font-size: 13px;
+    font-style: italic;
+    color: #f1efef;
+    padding: 20px 0;
+}
+.movie_director{
+    color: white;
+    padding: 10px 99px ;
+}
+.director_name{
+    color: #f5f2f2;
+    font-size: 15px;
+}

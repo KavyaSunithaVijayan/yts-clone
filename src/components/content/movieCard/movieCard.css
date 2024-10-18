@@ -1,0 +1,16 @@
+.card{
+    max-width: 1200px;
+    margin: auto;
+}
+.card_image{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px; 
+}
+.movie_title{
+color: white;
+}
+.movie_year{
+color: #919191;
+margin: 0;
+}

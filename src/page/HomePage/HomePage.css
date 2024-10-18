@@ -1,0 +1,75 @@
+
+  .home_container{
+    max-width: 1200px;
+    margin: auto;
+  }
+  .home_text_head{
+    font-size:35px;
+    color: white;
+    text-align: center;
+  }
+  .home_text{
+    text-align: center;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 0 310px;
+   
+  }
+  .text_information{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .text_download{
+    font-size: 15px;
+    color: white;
+  }
+  .more{
+    color: blue;
+   padding: 0 50px;
+    margin: 0 100px 0 0;
+  }
+  
+  .first_line{
+    color: #919191;
+    width: 75%; 
+  }
+  .menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 297px;
+    color: #6AC045;
+  }
+  .homepage_box{
+    border:2px solid  #6AC045;
+    padding: 10px;
+    border-radius:5px;
+  }
+  .latest_movie{
+    border:2px solid  #6AC045;
+    padding: 10px;
+    border-radius:5px;
+  }
+  .popular_movie{
+    border:2px solid  #6AC045;
+    padding: 10px;
+    border-radius:5px;
+  }
+  .browser{
+    border:2px solid  #6AC045;
+    padding: 10px;
+    border-radius:5px;
+  }
+  .second_line{
+    color: #919191;
+    width: 75%; 
+  }
+  .card_container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px 65px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . . .";
+  }
