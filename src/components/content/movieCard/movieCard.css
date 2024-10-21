@@ -1,16 +1,39 @@
-.card{
+.card {
     max-width: 1200px;
     margin: auto;
 }
-.card_image{
+
+.card_image {
     background-color: white;
-    padding: 5px;
-    border-radius: 5px; 
+    padding:9px;
+    border-radius: 5px;
+    position: relative;
+    
 }
-.movie_title{
-color: white;
+.card_hover_content{
+    position: absolute;
+    inset: 0;
+    display: none;
 }
-.movie_year{
-color: #919191;
-margin: 0;
+.card_hover_content:hover{
+    display: block;
+}
+
+.movie_title {
+    color: white;
+}
+
+.movie_year {
+    color: #919191;
+    margin: 0;
+}
+
+.card_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px 65px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . . .";
 }

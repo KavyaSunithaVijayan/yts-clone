@@ -1,18 +1,26 @@
 import { Link } from "react-router-dom";
-import './movieCard.css';
+import "./movieCard.css";
+import MovieData from "./MovieData.json";
 
-function MovieCard(){
-    return(
-        <Link to="detail">
-        <div className="card">
+function MovieCard() {
+  return (
+    <div className="card_container">
+      {MovieData.map((movie) => (
+        <Link to={`/movie/${movie.movieUrl}`}>
+          <div className="card">
             <div className="card_image">
-                <img src="/image/identity-2003.jpg" alt="identity-2003.jpg"/>
+              <img src={movie.img} alt={`${movie.movieName}-${movie.yearOfRelease}`} />
+              <div className="card_hover_content">
+                rating
+              </div>
             </div>
-            <span className='movie_title'>Identity</span>
-            <p className='movie_year'>2003</p>
-        </div>
+            <span className="movie_title">{movie.movieName}</span>
+            <p className="movie_year">{movie.yearOfRelease}</p>
+          </div>
         </Link>
-    )
+      ))}
+    </div>
+  );
 }
 
 export default MovieCard;

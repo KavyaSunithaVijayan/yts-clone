@@ -1,5 +1,14 @@
 import "./DetailPage.css";
+import { useParams } from "react-router-dom";
+import MovieData from "../../components/content/movieCard/MovieData.json";
+import { IoMdHeart } from "react-icons/io";
+
 function DetailPage() {
+  let { id } = useParams();
+  let res = MovieData.filter((movie) => {
+    return movie.movieUrl === id;
+  });
+  let selectedMovie = res[0];
   return (
     <div
       className="p-5 bg-white border rounded shadows-sm h-full bg-cover no-repeat"
@@ -15,17 +24,18 @@ function DetailPage() {
         </div>
         <div>
           <div className="discription">
-            <h1>Identity</h1>
+            <h1>{selectedMovie.movieName}</h1>
             <h3>
               2003 <br></br>Action / Mystery / Thriller
             </h3>
           </div>
           <div className="platforms">
             <div className="text_available">Available in:</div>
-            <h5 className="text_one">1080p.BluRay</h5>
-            <h5 className="text_second">720p BluRay</h5>
-            <h5 className="text_third">2160p.WEB.x265</h5>
+            {selectedMovie?.available?.map((qty) => (
+              <h5 className="text_one">{qty.quality}</h5>
+            ))}
           </div>
+          <IoMdHeart />
         </div>
         <div>
           <div className="similar_movies">
@@ -50,34 +60,34 @@ function DetailPage() {
       </div>
       <div className="movie_trailer">
         <video width="95%" height="500px" controls>
-          <source src="YbjV5gAAAAA.mp4" type="video/mp4" />
+          <source src="/image/YbjV5gAAAAA.mp4" type="video/mp4" />
           Identity movie trailer
         </video>
       </div>
+
       <div className="movie_shots">
-        <img
-          src="/image/identity-2003-medium-screenshot2.jpg"
-          alt="identity-2003-medium-screenshot2.jpg"
-          width="30%"
-          height="200px"
-        />
-        <img
-          src="/image/identity-2003-medium-screenshot3.jpg"
-          alt="identity-2003-medium-screenshot3.jpg"
-          width="30%"
-          height="200px"
-        />
-        <img
-          src="/image/tt0309698.jpg"
-          alt="tt0309698.jpg"
-          width="34%"
-          height="200px"
-        />
+        {selectedMovie?.asssets?.map((asset) =>(
+            <>
+              {asset.isImage === "false" ? (
+                  <video width="100%" height="100%" controls>
+                    <source src={asset.assetUrl} type="video/mp4" />
+                  </video>
+                ) : (
+                  <img
+                    src={asset.assetUrl}
+                    alt={asset.assetUrl}
+                    width="30%"
+                    height="200px"
+                  />
+                )
+              }
+            </>
+          ))}
       </div>
       <div className="content_details">
         <h2 className="identity_synopsis">
           Identity Synopsis <br></br>
-          <h6 className="date_time">October 10, 2024 at 09:10 AM</h6>
+          <span className="date_time">October 10, 2024 at 09:10 AM</span>
         </h2>
         <div className="movie_director">
           <h2>
@@ -87,7 +97,9 @@ function DetailPage() {
           <hr></hr>
           <br></br>
           <h2>Identity Cast</h2>
-          <div className="director_name">Amanda Peet</div>
+          {selectedMovie?.cast?.map((cast) => (
+            <div className="director_name">{cast}</div>
+          ))}
           <hr></hr>
         </div>
       </div>

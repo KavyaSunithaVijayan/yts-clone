@@ -11,9 +11,10 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" element={ <HomePage/> } />
-        <Route path="detail" element={ <DetailPage/> } />
+        <Route path="/movie/:id" element={ <DetailPage/> } />
       </Routes>
       <Footer/>
+      
       </div>  
   );
 }

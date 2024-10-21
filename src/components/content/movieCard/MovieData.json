@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "movieName": "Identity",
+        "movieUrl": "identity-2003",
+        "yearOfRelease": 2003,
+        "genre": "Action Horror",
+        "rating": 7.1,
+        "img": "/image/movie/01/thumbnail.jpg",
+        "cast": [
+            "Amanda Peet",
+            "Akhil"
+        ],
+        "asssets": [
+            {
+                "isImage": "false",
+                "assetUrl": "https://www.youtube.com/embed/TQkG2x3qTf4?rel=0&wmode=transparent&border=0&autoplay=1&iv_load_policy=3"
+            },
+            {
+                "isImage" : "true",
+                "assetUrl" : "https://en.yts-official.mx/movies/screenshot/identity-2003-large-screenshot2.jpg"
+            },
+            {
+                "isImage": "true",
+                "assetUrl": "https://en.yts-official.mx/movies/screenshot/identity-2003-large-screenshot3.jpg"
+            }
+        ],
+        "available": [
+            {
+                "quality": "1080p.BluRay",
+                "size": "1.4 GB",
+                "resolution": "1920*816",
+                "p/s": "100+"
+            },
+            {
+                "quality": "720p BluRay",
+                "size": "985 MB",
+                "resolution": "720p BluRay",
+                "p/s": "100+"
+            },
+            {
+                "quality": "2160p.WEB.x265",
+                "size": "4.8 GB",
+                "resolution": " 3840*1606",
+                "p/s": "100+"
+            }
+        ],
+        "video" : ""
+    },
+    {
+        "id": 2,
+        "movieName": "The Strangers",
+        "movieUrl": "the-sranger-2008",
+        "yearOfRelease": 2008,
+        "genre": "Action Horror",
+        "rating": 6.1,
+        "img": "/image/movie/02/Strange.jpg"
+    }
+]

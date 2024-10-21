@@ -27,9 +27,7 @@ function HomePage() {
           <h5 className="browser">Browse 4K Movies</h5>
         </div>
         <hr className="second_line"></hr>
-        <div className="card_container">
           <MovieCard />
-        </div>
       </div>
     </div>
   );
