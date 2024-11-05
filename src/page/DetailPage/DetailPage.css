@@ -1,45 +1,57 @@
-.movie_details{
+.name {
+    display: none;
+}
+
+.movie_details {
     display: flex;
-    justify-content:space-around;
-    padding:40px 10px 0px 90px ;
+    justify-content: space-around;
+    padding: 40px 10px 0px 39px;
     gap: 50px;
-    
+
 }
-.movie_poster{
-    border-radius:5px;
+
+.movie_poster {
+    border-radius: 5px;
     width: 220px;
-    border: 5px solid white;  
+    border: 2px solid white;
+
 }
-.download_option{
-    padding: 10px 0px ;
+
+.download_option {
+    padding: 10px 0px;
 }
-.dwonload_button{
-    outline:none;
+
+.dwonload_button {
+    outline: none;
     font-size: 18px;
-    width:210px;
-    height:40px;
+    width: 210px;
+    height: 40px;
     color: white;
     background-color: #6AC045;
-    border: 1px solid #6AC045;   
+    border: 1px solid #6AC045;
     border-radius: 5px;
-    
+
 }
-.discription{
+
+.discription {
     color: white;
 
 }
-.platforms{
+
+.platforms {
     display: flex;
     justify-content: space-between;
     padding: 15px 0;
-    
+
 }
-.text_available{
+
+.text_available {
     color: white;
     font-style: italic;
 
 }
-.text_one{
+
+.text_one {
     color: white;
     border: 1px solid rgb(250, 246, 246);
     border-radius: 5px;
@@ -47,109 +59,221 @@
     background-color: transparent;
 
 }
-.text_second{
-    color: white;
-    border: 1px solid rgb(250, 246, 246);
-    border-radius: 5px;
-    padding: 8px;
-    background-color: transparent;
-}
-.text_third{
-    color: white;
-    border: 1px solid rgb(250, 246, 246);
-    border-radius: 5px;
-    padding: 8px;
-    background-color: transparent;
-}
-.like_icon{
+
+.like_icon {
     color: #6AC045;
     font-size: 23px;
 }
-.likes{
+
+.likes {
     color: white;
     font-size: 20px;
-    padding: 25px ;
-    
+    padding: 25px;
+
 }
-.rating_icon{
-    color:yellow;
+
+.rating_icon {
+    color: yellow;
     font-size: 23px;
 }
-.rating{
+
+.rating {
     color: white;
     font-size: 20px;
     padding: 35px;
 }
-.rating_star{
+
+.rating_star {
     color: #6AC045;
-    padding:4px;
+    padding: 4px;
     font-size: 23px;
 }
-.similar_movies{
+
+.similar_movies {
     color: white;
-    
+
 }
-.movies_list{
+
+.movies_list {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 10px 10px;
-    grid-auto-flow:row;
+    grid-auto-flow: row;
     grid-template-areas:
-    ". . ";
+        ". . ";
 }
-.movie_one{
-    width:100px;
+
+.movie_one {
+    width: 100px;
     background-color: white;
-    padding:4px;
+    padding: 4px;
     border-radius: 5px;
 }
-.movie_trailer{
+
+.movie_trailer {
     text-align: center;
     padding: 40px 50px;
 }
-.movie_shots{
+
+.movie_shots {
     display: flex;
     justify-content: center;
     padding: 10px 60px;
-   
-    
-}
-.content_details{
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr;
-    gap: 10px 80px;
-    grid-auto-flow:row;
-    grid-template-areas:
-    ". . ";
+
 
 }
-.synopsis{
+
+.content_details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px 80px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . ";
+
+}
+
+.synopsis {
     color: white;
     padding: 10px 99px;
 }
-.date_time{
+
+.date_time {
     font-size: 13px;
     font-style: italic;
     color: #f1efef;
     padding: 20px 0;
 }
-.person_circle{
+
+.person_circle {
     color: white;
     font-size: 25px;
     padding: 0 10px;
 }
-.movie_director{
+
+.movie_director {
     color: white;
-    padding: 10px 99px ;
-    
+    padding: 10px 99px;
+    font-weight: bold;
+
 }
-.director_name{
+
+.director_name {
     color: #f5f2f2;
     font-size: 18px;
 }
-.movie_cast{
+
+.movie_cast {
     color: #f5f2f2;
-    font-size: 18px;
+    font-size: 15px;
+}
+
+.like_heart,
+.movie_likes,
+.imbd,
+.movie_rating,
+.text_two,
+.like_details,
+.imbd_details {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+
+    .name {
+        display: block;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 0 55px;
+    }
+
+    .year_genre {
+        font-size: 15px;
+    }
+
+    .movie_details {
+        padding: 6px;
+        gap: 0px;
+    }
+
+    .discription,
+    .download_option,
+    .similar_movies,
+    .movies_list,
+    .text_available,
+    .like_icon,
+    .likes,
+    .rating,
+    .rating_icon,
+    .rating_star,
+    .like_details,
+    .platforms,.movie_shots {
+        display: none;
+    }
+
+    .like_heart {
+        color: #6AC045;
+        padding: 10px;
+    }
+
+    .movie_likes {
+        display: block;
+        color: white;
+        font-size: 15px;
+
+    }
+
+    .imbd {
+
+        color: yellow;
+        font-size: 10px;
+    }
+
+    .movie_rating {
+        display: block;
+        color: white;
+        font-size: 15px;
+
+    }
+
+    .like_details,
+    .imbd_details {
+        display: flex;
+        gap: 10px;
+        padding: 5px 0;
+    }
+
+    .text_two {
+        display: block;
+        color: white;
+        border: 1px solid gray;
+        border-radius: 2px;
+        background-color:transparent;
+    }
+    .download_icon{
+        color: #6AC045;
+        
+    }
+    .movie_trailer {
+        padding:10px;
+        width:85%;
+    }
+    .content_details {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 10px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            ".  ";
+    }
+    .synopsis,.cast_title{
+        font-size:20px;
+    }
+    .movie_director{
+        font-size:15px;
+    }
 }

@@ -14,61 +14,72 @@
     color: white;
     text-align: center;
     margin: 0;
+    padding: 30px;
   }
   .home_text{
     text-align: center;
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
-    padding: 0 310px;
+    padding:0px 310px;
    
   }
   .text_information{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content:space-evenly;
+  }
+  .star_icon{
+    color: #6AC045;
+    font-size:15px;
+    margin-right: 5px;
   }
   
   .text_download{
     font-size: 15px;
     color: white;
+    text-align: center;
+    margin-left:43%;
+  }
+  .rss_icon{
+    color:orange;
+    font-size: 15px;
+    margin-right: 5px;
   }
   .more{
     color: blue;
-   padding: 0 50px;
+    padding: 0 50px;
     margin: 0 100px 0 0;
+    margin-left: auto;
+    margin-right:-20px;
   }
   
   .first_line{
-    color: #919191;
-    width: 75%; 
+    border: 1px solid  #919191;
+    width:100%; 
   }
   .menu{
     display: flex;
-    justify-content: space-around;
-    padding: 0 297px;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap:5px;
     color: #6AC045;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    
   }
   .homepage_box{
-    border:2px solid  #6AC045;
-    padding: 10px;
+    border:1px solid #6AC045;
     border-radius:5px;
-  }
-  .latest_movie{
-    border:2px solid  #6AC045;
+    font-weight: bold;
     padding: 10px;
-    border-radius:5px;
   }
-  .popular_movie{
-    border:2px solid  #6AC045;
-    padding: 10px;
-    border-radius:5px;
+  @media screen and (max-width: 992px){
+.home_text{
+  display: none;
   }
-  .browser{
-    border:2px solid  #6AC045;
-    padding: 10px;
-    border-radius:5px;
+  .home_text_head{
+    display: none;
   }
-  .second_line{
-    color: #919191;
-    width: 75%; 
-  }
+}

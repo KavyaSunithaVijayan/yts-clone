@@ -7,7 +7,7 @@
         "genre": "Action Horror",
         "rating": 7.1,
         "img": "/image/movie/01/thumbnail.jpg",
-        "background":"https://www.100hdwallpapers.com/wallpapers/2560x1600/inception_cast-widescreen_wallpapers.jpg",
+        "background": "https://i.pinimg.com/originals/2e/cb/bf/2ecbbf563fe2bc267e96ef902e12ecf6.jpg",
         "directorTitle": "Identity Director",
         "director": "James Mangold",
         "castTitle": "Identity Cast",
@@ -298,7 +298,7 @@
         "movieUrl": "the-faculty-1998",
         "yearOfRelease": 1998,
         "genre": "Action / Horror / Mystery / Sci-Fi",
-        "rating":6.6,
+        "rating": 6.6,
         "img": "https://en.yts-official.mx/movies/poster/the-faculty-1998.jpg",
         "like": "99",
         "movieRating": "6.6",
@@ -366,12 +366,12 @@
         "video": "https://www.youtube.com/embed/praQkvivkUE?rel=0&wmode=transparent&border=0&autoplay=1&iv_load_policy=3"
     },
     {
-        "id":6,
+        "id": 6,
         "movieName": "Alien: Romulus",
         "movieUrl": "alien-romulus-2024",
         "yearOfRelease": 2024,
         "genre": "Horror / Sci-Fi / Thriller",
-        "rating":7.2,
+        "rating": 7.2,
         "img": "https://en.yts-official.mx/movies/poster/alien-romulus-2024.jpg",
         "like": "200",
         "movieRating": "7.2",
@@ -439,12 +439,12 @@
         "video": "https://www.youtube.com/embed/praQkvivkUE?rel=0&wmode=transparent&border=0&autoplay=1&iv_load_policy=3"
     },
     {
-        "id":7,
+        "id": 7,
         "movieName": "Lonely Planet",
         "movieUrl": "lonely-planet-2024",
         "yearOfRelease": 2024,
         "genre": "Drama / Romance",
-        "rating":5.7,
+        "rating": 5.7,
         "img": "https://en.yts-official.mx/movies/poster/lonely-planet-2024.jpg",
         "like": "20",
         "movieRating": "5.7",
@@ -461,7 +461,6 @@
                 "similarMovieUrl": "she-hate-me-2004",
                 "imageUrl": "https://en.yts-official.mx/movies/poster/she-hate-me-2004.jpg?v=1"
             }
-            
         ],
         "asssets": [
             {
@@ -509,12 +508,12 @@
         "video": "https://www.youtube.com/embed/praQkvivkUE?rel=0&wmode=transparent&border=0&autoplay=1&iv_load_policy=3"
     },
     {
-        "id":8,
+        "id": 8,
         "movieName": "Bookworm",
         "movieUrl": "bookworm-2024",
         "yearOfRelease": 2024,
         "genre": "Adventure / Comedy / Drama",
-        "rating":6.3,
+        "rating": 6.3,
         "img": "https://en.yts-official.mx/movies/poster/bookworm-2024.jpg",
         "like": "16",
         "movieRating": "6.3",
@@ -564,12 +563,12 @@
         "video": "https://www.youtube.com/embed/praQkvivkUE?rel=0&wmode=transparent&border=0&autoplay=1&iv_load_policy=3"
     },
     {
-        "id":9,
+        "id": 9,
         "movieName": "The Silent Hour",
         "movieUrl": "the-silent-hour-2024",
         "yearOfRelease": 2024,
         "genre": "Crime / Thriller",
-        "rating":5.9,
+        "rating": 5.9,
         "img": "https://en.yts-official.mx/movies/poster/the-silent-hour-2024.jpg",
         "like": "49",
         "movieRating": "5.9",
@@ -579,16 +578,16 @@
                 "imageUrl": "https://en.yts-official.mx/movies/poster/uprising-2024.jpg?v=1"
             },
             {
-            "similarMovieUrl": "mr-crocket-2024",
+                "similarMovieUrl": "mr-crocket-2024",
                 "imageUrl": "https://en.yts-official.mx/movies/poster/mr-crocket-2024.jpg?v=1"
             },
             {
-            "similarMovieUrl": "salems-lot-2024",
+                "similarMovieUrl": "salems-lot-2024",
                 "imageUrl": "https://en.yts-official.mx/movies/poster/salems-lot-2024.jpg?v=1"
             },
             {
                 "similarMovieUrl": "the-dragon-strikes-back-1973",
-                    "imageUrl": "https://en.yts-official.mx/movies/poster/the-dragon-strikes-back-1973.jpg?v=1"
+                "imageUrl": "https://en.yts-official.mx/movies/poster/the-dragon-strikes-back-1973.jpg?v=1"
             }
         ],
         "asssets": [
@@ -637,12 +636,12 @@
         "video": "https://www.youtube.com/embed/praQkvivkUE?rel=0&wmode=transparent&border=0&autoplay=1&iv_load_policy=3"
     },
     {
-        "id":10,
+        "id": 10,
         "movieName": "Caddo Lake",
         "movieUrl": "caddo-lake-2024",
         "yearOfRelease": 2024,
         "genre": "Drama / Mystery / Thriller",
-        "rating":6.9,
+        "rating": 6.9,
         "img": "https://en.yts-official.mx/movies/poster/caddo-lake-2024.jpg",
         "like": "61",
         "movieRating": "6.9",
@@ -652,16 +651,16 @@
                 "imageUrl": "https://en.yts-official.mx/movies/poster/lonely-planet-2024.jpg?v=1"
             },
             {
-            "similarMovieUrl": "wingwomen-2023",
+                "similarMovieUrl": "wingwomen-2023",
                 "imageUrl": "https://en.yts-official.mx/movies/poster/wingwomen-2023.jpg?v=1"
             },
             {
-            "similarMovieUrl": "past-lives-2023",
+                "similarMovieUrl": "past-lives-2023",
                 "imageUrl": "https://en.yts-official.mx/movies/poster/past-lives-2023.jpg?v=1"
             },
             {
                 "similarMovieUrl": "elevator-to-the-gallows-1958",
-                    "imageUrl": "https://en.yts-official.mx/movies/poster/elevator-to-the-gallows-1958.jpg?v=1"
+                "imageUrl": "https://en.yts-official.mx/movies/poster/elevator-to-the-gallows-1958.jpg?v=1"
             }
         ],
         "asssets": [
@@ -710,12 +709,12 @@
         "video": "https://www.youtube.com/embed/praQkvivkUE?rel=0&wmode=transparent&border=0&autoplay=1&iv_load_policy=3"
     },
     {
-        "id":11,
+        "id": 11,
         "movieName": "Betrayed by Love",
         "movieUrl": "betrayed-by-love-2024",
         "yearOfRelease": 2024,
         "genre": "Drama / Mystery",
-        "rating":6.2,
+        "rating": 6.2,
         "img": "https://en.yts-official.mx/movies/poster/betrayed-by-love-2024.jpg",
         "like": "5",
         "movieRating": "6.2",
@@ -725,16 +724,16 @@
                 "imageUrl": "https://en.yts-official.mx/movies/poster/the-return-of-the-tall-blond-man-1974.jpg?v=1"
             },
             {
-            "similarMovieUrl": "scooby-doo-curse-of-the-lake-monster-2010",
+                "similarMovieUrl": "scooby-doo-curse-of-the-lake-monster-2010",
                 "imageUrl": "https://en.yts-official.mx/movies/poster/scooby-doo-curse-of-the-lake-monster-2010.jpg?v=1"
             },
             {
-            "similarMovieUrl": "rosalie-goes-shopping-1989",
+                "similarMovieUrl": "rosalie-goes-shopping-1989",
                 "imageUrl": "https://en.yts-official.mx/movies/poster/rosalie-goes-shopping-1989.jpg?v=1"
             },
             {
                 "similarMovieUrl": "christmas-with-a-view-2018",
-                    "imageUrl": "https://en.yts-official.mx/movies/poster/christmas-with-a-view-2018.jpg?v=1"
+                "imageUrl": "https://en.yts-official.mx/movies/poster/christmas-with-a-view-2018.jpg?v=1"
             }
         ],
         "asssets": [
@@ -773,17 +772,16 @@
                 "resolution": "1280*720",
                 "p/s": "100+"
             }
-          
         ],
         "video": "https://www.youtube.com/embed/praQkvivkUE?rel=0&wmode=transparent&border=0&autoplay=1&iv_load_policy=3"
     },
     {
-        "id":12,
+        "id": 12,
         "movieName": "The Menendez Brothers",
         "movieUrl": "the-menendez-brothers-2024",
         "yearOfRelease": 2024,
         "genre": "Documentary",
-        "rating":7.1,
+        "rating": 7.1,
         "img": "https://en.yts-official.mx/movies/poster/the-menendez-brothers-2024.jpg",
         "like": "10",
         "movieRating": "7.1",
@@ -793,16 +791,16 @@
                 "imageUrl": "https://en.yts-official.mx/movies/poster/killer-heat-2024.jpg?v=1"
             },
             {
-            "similarMovieUrl": "it-ends-with-us-2024",
+                "similarMovieUrl": "it-ends-with-us-2024",
                 "imageUrl": "https://en.yts-official.mx/movies/poster/it-ends-with-us-2024.jpg?v=1"
             },
             {
-            "similarMovieUrl": "the-bikeriders-2023",
+                "similarMovieUrl": "the-bikeriders-2023",
                 "imageUrl": "https://en.yts-official.mx/movies/poster/the-bikeriders-2023.jpg?v=1"
             },
             {
                 "similarMovieUrl": "unfrosted-2024",
-                    "imageUrl": "https://en.yts-official.mx/movies/poster/unfrosted-2024.jpg?v=1"
+                "imageUrl": "https://en.yts-official.mx/movies/poster/unfrosted-2024.jpg?v=1"
             }
         ],
         "asssets": [
@@ -841,20 +839,7 @@
                 "resolution": "1280*720",
                 "p/s": "100+"
             }
-          
         ],
         "video": "https://www.youtube.com/embed/praQkvivkUE?rel=0&wmode=transparent&border=0&autoplay=1&iv_load_policy=3"
     }
-
-
-
 ]
-
-
-
-
-
-
-
-
-

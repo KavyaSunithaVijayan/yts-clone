@@ -1,5 +1,8 @@
 import MovieCard from "../../components/content/movieCard";
 import "./HomePage.css";
+import { FaStar } from "react-icons/fa";
+import { FaSquareRss } from "react-icons/fa6";
+
 function HomePage() {
   return (
     <div
@@ -15,18 +18,18 @@ function HomePage() {
           the smallest file size. YIFY Movies Torrents.
         </p>
         <div className="text_information">
-          <h2 className="text_download">Popular Downloads</h2>
-          <h4 className="more">more..</h4>
+          <h2 className="text_download"><span className="star_icon"><FaStar /></span>Popular Downloads</h2>
+          <h4 className="more"><span className="rss_icon"><FaSquareRss /></span>more..</h4>
         </div>
 
         <hr className="first_line"></hr>
         <div className="menu">
-          <h5 className="homepage_box">GO TO HOME PAGE</h5>
-          <h5 className="latest_movie">Latest Movies</h5>
-          <h5 className="popular_movie">Popular Movies</h5>
-          <h5 className="browser">Browse 4K Movies</h5>
+          <span className="homepage_box">GO TO HOME PAGE</span>
+          <span className="homepage_box">Latest Movies</span>
+          <span className="homepage_box">Popular Movies</span>
+          <span className="homepage_box">Browse 4K Movies</span>
         </div>
-        <hr className="second_line"></hr>
+        <hr className="first_line"></hr>
           <MovieCard />
       </div>
     </div>

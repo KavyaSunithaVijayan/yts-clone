@@ -6,10 +6,10 @@ function MovieCard() {
   return (
     <div className="card_container">
       {MovieData.map((movie) => (
-        <Link to={`/movie/${movie.movieUrl}`}>
+        <Link className="title_link" to={`/movie/${movie.movieUrl}`}>
           <div className="card">
             <div className="card_image">
-              <img src={movie.img} alt={`${movie.movieName}-${movie.yearOfRelease}`} />
+              <img className="image" src={movie.img} alt={`${movie.movieName}-${movie.yearOfRelease}`} />
               <div className="card_hover_content">
                 rating
               </div>

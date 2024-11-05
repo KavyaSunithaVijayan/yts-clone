@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+import { Link } from "react-router-dom";
 import { CiSearch } from "react-icons/ci";
 import { GiHamburgerMenu } from "react-icons/gi";
 
@@ -7,8 +8,9 @@ function Header() {
   return (
     <div className="header_container">
       <div className="header_content">
-
-        <div><img src="/image/logo-YTS.svg" alt="logo-YTS.svg"/></div>
+        <Link to="/">
+        <img src="/image/logo-YTS.svg" alt="logo-YTS.svg"/>
+        </Link>
         <div className="search_icon">
             <CiSearch size="20px"/>
             <GiHamburgerMenu size="20px"/>
