@@ -1,27 +1,31 @@
-.title_link{
+.title_link {
     text-decoration: none;
 }
+
 .card {
     max-width: 1200px;
-    margin:auto;
+    margin: auto;
 }
 
 .card_image {
     background-color: white;
-    padding:5px;
+    padding: 5px;
     border-radius: 5px;
     position: relative;
 
 
-.image{
-    width: 100%;
-}}
-.card_hover_content{
+    .image {
+        width: 100%;
+    }
+}
+
+.card_hover_content {
     position: absolute;
     inset: 0;
     display: none;
 }
-.card_hover_content:hover{
+
+.card_hover_content:hover {
     display: block;
 }
 
@@ -30,7 +34,7 @@
 }
 
 .movie_year {
-    color: #919191;
+    color: white;
     margin: 0;
 }
 
@@ -42,11 +46,12 @@
     grid-auto-flow: row;
     grid-template-areas:
         ". . . .";
-        padding-left: 30px;
-        padding-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
-@media screen and (max-width:992px){
-    .card_container{
+
+@media screen and (max-width:992px) {
+    .card_container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
@@ -56,8 +61,9 @@
             ". . .";
     }
 }
-@media screen and (max-width:768px){
-    .card_container{
+
+@media screen and (max-width:768px) {
+    .card_container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;

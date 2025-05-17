@@ -1,8 +1,8 @@
-import React from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
 import { CiSearch } from "react-icons/ci";
 import { GiHamburgerMenu } from "react-icons/gi";
+import 'keen-slider/keen-slider.min.css'
 
 function Header() {
   return (

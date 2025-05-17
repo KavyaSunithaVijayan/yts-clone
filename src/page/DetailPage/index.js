@@ -14,7 +14,9 @@ function DetailPage() {
   });
   let selectedMovie = res[0];
   return (
-    <div style={{ backgroundImage: `url(${selectedMovie.background})` }}>
+    <div
+      className="background"
+      style={{ backgroundImage: "url('https://i.pinimg.com/originals/2e/cb/bf/2ecbbf563fe2bc267e96ef902e12ecf6.jpg')" }}>
       <div className="name">
         <span>{selectedMovie.movieName}</span>
         <div className="year_genre">
@@ -125,21 +127,20 @@ function DetailPage() {
       <div className="content_details">
         <h2 className="synopsis">
           {selectedMovie.synopsis}
-          <br></br>
+         <br/>
           <span className="date_time">{selectedMovie.dateAndTime}</span>
         </h2>
         <div className="movie_director">
           <h2>
             {selectedMovie.directorTitle}
-            <br></br>
+           <br/>
           </h2>
           <span className="person_circle">
             {" "}
             <BsPersonCircle />
           </span>
           <span className="director_name">{selectedMovie.director}</span>
-          <hr></hr>
-          <br></br>
+          <hr/><br/>
           <h2 className="cast_title">{selectedMovie.castTitle}</h2>
 
           {selectedMovie?.cast?.map((cast) => (
@@ -149,7 +150,7 @@ function DetailPage() {
                 <BsPersonCircle />
               </span>
               <span className="movie_cast">{cast}</span>
-              <hr></hr>
+              <hr/>
             </div>
           ))}
         </div>
