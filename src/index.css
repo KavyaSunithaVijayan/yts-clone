@@ -13,5 +13,9 @@ code {
 }
 
 .primary_color {
-  color : #6AC045
+  color: #6AC045
+}
+
+.primary_color:hover {
+  color: green;
 }

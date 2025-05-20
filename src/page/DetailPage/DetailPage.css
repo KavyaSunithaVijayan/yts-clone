@@ -126,7 +126,7 @@
 }
 
 .movie_one:hover {
-    transform: translate(-1px, -20px);
+    transform: translate(-2px, -10px);
 }
 
 .movie_trailer {
@@ -253,12 +253,14 @@
         color: white;
         font-size: 15px;
     }
+
     .like_details,
     .imbd_details {
         display: flex;
         gap: 10px;
         padding: 5px 0;
     }
+
     .text_two {
         display: block;
         color: white;
@@ -266,6 +268,7 @@
         border-radius: 2px;
         background-color: transparent;
     }
+
     .download_icon {
         color: #6AC045;
     }
@@ -284,6 +287,7 @@
         grid-template-areas:
             ".  ";
     }
+
     .synopsis,
     .cast_title {
         font-size: 20px;

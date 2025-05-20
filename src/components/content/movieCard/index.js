@@ -5,7 +5,7 @@ import MovieData from "./MovieData.json";
 function MovieCard() {
   return (
     <div className="card_container">
-      {MovieData.map((movie) => (
+      {MovieData?.map((movie) => (
         <Link className="title_link" to={`/movie/${movie.movieUrl}`}>
           <div className="card">
             <div className="card_image">

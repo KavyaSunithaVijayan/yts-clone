@@ -20,11 +20,10 @@ function Header() {
            
             <input className="search_input_style" type="text"placeholder="Quick search"/>
           </div>
-          <div>Home</div>
+          <div className="home">Home</div>
           <div className="primary_color">4K</div>
-          <div>Browse movies</div>
+          <div className="browse_movies">Browse movies</div>
         </div>
-
       </div>
     </div>
   );

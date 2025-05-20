@@ -23,10 +23,14 @@
     position: absolute;
     inset: 0;
     display: none;
+    top: 10%;
+    bottom: 50%;
+    left: 10%;
+    right: 10%
 }
 
 .card_hover_content:hover {
-    display: block;
+    background-color: aqua;
 }
 
 .movie_title {
